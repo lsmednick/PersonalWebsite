@@ -1,0 +1,185 @@
+html,
+body {
+  height: 100%;
+  background: radial-gradient(rgb(249, 250, 242) 40%, rgb(121, 121, 121) 100%);
+  font-family: "Roboto", sans-serif;
+}
+
+table {
+  font-family: arial, sans-serif;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  text-align: left;
+  padding: 8px;
+}
+
+img {
+  padding: 0.45rem;
+}
+
+.top_bar {
+  display: flex;
+  border-radius: 10px;
+  background-color: black;
+  color: wheat;
+  overflow: hidden;
+}
+
+.top_bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 37px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  width: min-content;
+}
+
+.top_bar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.top_bar a.active {
+  background-color: wheat;
+  color: black;
+}
+
+.box {
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 15px;
+  height: fit-content;
+}
+
+.be_friends {
+  margin-left: auto;
+}
+
+.be_friends2 {
+  display: inline-flex;
+}
+
+.noStack {
+  display: inline-flex;
+}
+
+.squish {
+  width: 80px;
+  height: 80px;
+  padding-right: 15px;
+}
+
+.lil_padding {
+  padding-top: 16px;
+}
+
+.lil_padding2 {
+  padding-bottom: 16px;
+}
+
+.lil_padding3 {
+  padding: 10px;
+}
+
+.lil_padding4 {
+  padding: 10px;
+}
+
+.no_margin {
+  margin: 0;
+}
+
+.head {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.schoolPic {
+  width: 94%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.schoolPic:hover {
+  opacity: 0.5;
+}
+
+.noHover {
+  width: 0%;
+  height: 0%;
+}
+
+div.hidden,
+div.hidden2 {
+  display: none;
+}
+
+div.hidden3 {
+  display: none;
+  padding-bottom: 16px;
+}
+
+.contactText {
+  text-align: center;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 950px) {
+  .be_friends2 {
+    display: inline-table;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .lil_padding {
+    font-size: 70%;
+    padding-top: 25px;
+  }
+
+  .top_bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 20px;
+    height: max-content;
+    text-decoration: none;
+    font-size: 71%;
+  }
+
+  .box {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .lil_padding {
+    font-size: 50%;
+    width: 90px;
+    padding-top: 18px;
+  }
+
+  .top_bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 41.5px 20px;
+    height: max-content;
+    text-decoration: none;
+    font-size: 60%;
+  }
+
+  .box {
+    font-size: 80%;
+  }
+}
